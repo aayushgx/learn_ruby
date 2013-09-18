@@ -64,6 +64,11 @@ describe "#translate" do
     s = translate("the quick brown fox")
     s.should == "ethay ickquay ownbray oxfay"
   end
+  
+#  it "checks capitalization" do
+#    s = translate("The Quick Brown Fox")
+#    s.should == "Ethay Ickquay Ownbray Oxfay"
+#  end
 
   # Test-driving bonus:
   # * write a test asserting that capitalized words are still capitalized (but with a different initial capital letter, of course)
